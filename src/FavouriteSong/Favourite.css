@@ -1,0 +1,12 @@
+.title{
+    font-weight:2900;
+    font-size: 3vw;
+    color:#FF3A45;
+    margin-left:100px;
+}
+nav{
+    border-bottom:5px solid #FF3A45;
+}
+.favbody>h1{
+    color:white;
+}

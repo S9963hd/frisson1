@@ -1,0 +1,93 @@
+.searchgroup{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px;
+    font-size:larger;
+    border-radius:25px;
+}
+input[type="search"]{
+    width: 40vw;
+    padding:10px;
+    margin-right:10px;
+    background-color:#1F1F1F;
+    color:white;
+    border-radius:25px;
+}
+/* Card CSS */
+.card {
+    display:flex;
+    image-rendering:optimizeQuality;
+    color:white;
+    padding:20px;
+    margin:15px;
+    border-bottom:2px solid #FC324F;
+   
+}
+.card:hover {
+    display:flex;
+    image-rendering:optimizeQuality;
+    color:white;
+    background-color: #1F1F1F;
+    padding:20px;
+    margin:15px;
+    border-bottom:2px solid #FC324F;
+   
+}
+.card img{
+    width :100px;
+    height:100px;
+    margin:10px;
+    padding:5px;
+}
+.card button{
+    width:50px;
+    height:25px;
+    color:red;
+    border:1px solid inherit;
+    background-color:#1F1F1F;
+    border-color: #1F1F1F;
+    border-radius:50px;
+}
+.card button:hover{
+    cursor:pointer;
+    width:50px;
+    height:25px;
+    color:red;
+    border:1px solid red;
+    background-color:#1F1F1F;
+    border-radius:50px;
+}
+.likeSongs{
+    color:white;
+    cursor: pointer;
+    margin-left:10px;
+}
+.likeSongs:hover{
+    color:#FC324F !important;
+    margin-left:10px;
+    animation: likesonganime 0.5 ease-in-out;
+}
+@keyframes likesonganime {
+    from{
+        font-size:initial;
+        font-size: medium;
+    }
+    to{
+        color:green;
+        font-size: xx-large;
+    }
+}
+.searchform button[type='submit']{
+    align-items: center;
+    background-color: transparent;
+    border:1px solid transparent;
+    font-size: x-large;
+}
+.searchform button[type='submit']:hover{
+    align-items: center;
+    color:#FC324F !important;
+    background-color: transparent;
+    border:1px solid transparent;
+    font-size: x-large;
+}

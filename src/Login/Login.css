@@ -1,0 +1,50 @@
+.loginPage{
+    display:flex;
+    justify-content: center;
+    padding-top:30px; 
+}
+.logo{
+    width:110px;
+    height:80px;
+}
+input{
+    border:1px solid grey;
+    color:white;
+    display:block;
+    background-color: #1f1f1f;
+    height:35px;
+    width:400px;
+    border-radius: 5px;
+    padding-left:10px;
+}
+.loginPage .button{
+    cursor:pointer;
+    margin-top:20px;
+    color:white;
+    background-color: #000000;
+    border:1px solid #1f1f1f; 
+    width:100px;
+    height: 30px;
+}
+.loginPage .button:hover{
+    cursor:pointer;
+    margin-top:20px;
+    background-color: #1f1f1f;
+    border:1px solid #FF3A45;
+    color:#FF3A45;
+    width:100px;
+    height: 30px;
+}
+.showPassword{
+    cursor:pointer;
+    color:white;
+    padding-top: 10px;
+}
+.showPassword:hover{
+    color:#FF3A45;
+    text-decoration: underline;
+}
+.loginPage h3{
+    font-size: x-large;
+    font-weight: 800;
+}

@@ -1,0 +1,79 @@
+/* Navigtation CSS */
+nav{
+    border-bottom: 1px solid #F44947;
+}
+.Nav{
+    color:aliceblue;
+    display:flex;
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav *{
+    margin-left:20px;
+    margin-right:20px;
+}
+.Nav :nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    float:left;
+}
+.Nav :nth-child(2) > *{
+    cursor:pointer;
+    margin-left:10px;
+    margin-right:10px;
+}
+.menu{
+    cursor:pointer;
+    z-index:1;
+}
+body{
+    background-color: #090902;
+}
+.logo{
+    height:80px;
+    height:80px;
+}
+/* End Here */
+/* Menu */
+.Menu{
+    border-radius:10px;
+    top:100px;
+    background-color:#181818;
+    position:absolute;
+    z-index:1;
+    min-width:25vw;
+    min-height:70vh;
+    border: 2px solid #1F1F1F;
+    animation: 0.2s slider ease-in-out;
+}
+@keyframes slider {
+    from {
+        opacity:0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.Menu > *{
+    padding:20px;
+    cursor:pointer;
+    color:white;    
+}
+.Menu > *:hover{
+    cursor:pointer;
+    color:#FB314F; 
+    background-color: #1F1F1F;  
+}
+/* end Here */
+
+/* Search */
+.search{
+    cursor:pointer;
+    padding:10px;
+}
+.search:hover{
+    cursor:pointer;
+    padding:10px;
+    background-color: #1F1F1F;
+}
